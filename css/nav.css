@@ -1,0 +1,43 @@
+/********* NAV *********/
+nav {
+    background-color: rgb(6, 71, 4);
+    padding: 2px 0px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 1px 0px;
+    flex-wrap: wrap;
+}    
+
+nav ul li{
+    margin: 0 16px;
+}    
+
+nav ul li a{
+    /* color: rgb(102, 55, 155); */
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+}    
+nav ul li a:hover{
+    background: white;
+    color: #333;
+    border-radius: 10px;
+}    
+
+nav ul li i {
+    padding: 3px 4px;
+}
+
+@media (max-width: 790px) {
+    nav ul {
+        justify-content: space-between;
+        /* margin: 0px; */
+    }
+    nav ul li a {
+        padding: 0px;
+    }
+}

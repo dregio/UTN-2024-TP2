@@ -1,0 +1,67 @@
+@import "main.css";
+
+#cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid green;
+    border-radius: 5px;
+    margin: 1rem 0;
+    padding: 0.5rem;
+	align-content: center;
+}
+
+#sin-tareas {
+	color: lightslategray;
+}
+
+.card{
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.card p{
+    padding: 0px;
+}
+
+.card-content{
+    margin-top: 10px ;
+    color: black;
+}
+
+input:valid {
+    border-color: green;
+}
+
+input:invalid {
+    border-color: red
+}
+
+
+.tasks-section {
+	text-align: left;
+    align-items: left;
+	margin: 1rem;
+	color: blue; /* tttest */
+}
+
+.new-card-form {
+	color: purple; /* tttest */
+	padding: 1rem;
+	border: 2px solid  rgba(51, 52, 78, 0.863);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	/* margin: 1rem; */
+	display: inline-block;
+}
+
+form input  {
+/* 	border: 5px solid red; */
+	/* width: 100%; */ /* VVER = REVISAR */
+}

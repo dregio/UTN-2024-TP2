@@ -1,0 +1,15 @@
+header {
+    background-color: #055f0524;
+    color: rgb(15, 16, 88);
+}   
+
+header h1{
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}    
+
+header h1 div {
+    margin: 0px 10px 0px 0px;
+}
